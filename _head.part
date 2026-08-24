@@ -7,12 +7,21 @@
 <meta name="description" content="__DESC__">
 <!-- Draft site. Remove this line at launch so the site can be indexed. -->
 <meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="__ROOT__favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OVD">
+<meta property="og:title" content="__TITLE__">
+<meta property="og:description" content="__DESC__">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="__CSS__css/site.css">
 </head>
 <body>
+
+<a class="skip" href="#main">Skip to content</a>
 
 <header class="topbar">
   <div class="shell topbar-in">
@@ -29,4 +38,4 @@
   </div>
 </header>
 
-<main>
+<main id="main" tabindex="-1">

@@ -981,3 +981,20 @@ footer.site {
   font-weight: 600;
   color: var(--accent);
 }
+
+/* Keyboard users land ahead of a seven-item nav on every page. */
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: var(--ground);
+  font-family: var(--f-display);
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+  z-index: 10;
+}
+.skip:focus { left: 0.6rem; top: 0.6rem; }
+
+main:focus { outline: none; }
