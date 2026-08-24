@@ -4,9 +4,12 @@
 Each body file starts with a small header block of key: value lines, then a
 blank line, then the page's <main> content. Run: python3 build.py
 """
-import pathlib, re, sys
+import hashlib, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).parent
+
+# Stylesheet fingerprint, so a changed stylesheet is never served from cache.
+CSS_VER = hashlib.sha1((ROOT / "css" / "site.css").read_bytes()).hexdigest()[:8]
 HEAD = (ROOT / "_head.part").read_text()
 FOOT = (ROOT / "_foot.part").read_text()
 
@@ -30,6 +33,7 @@ def build(src: pathlib.Path) -> str:
 
     page = HEAD.replace("__TITLE__", meta["title"]).replace("__DESC__", meta["desc"])
     page = page.replace("__CSS__", root).replace("__ROOT__", root or "/")
+    page = page.replace("css/site.css\"", f"css/site.css?v={CSS_VER}\"")
     for key, token in NAV.items():
         page = page.replace(token, 'class="here"' if key == slug else "")
     page = re.sub(r"<a\s+href=", "<a href=", page)
