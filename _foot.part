@@ -1,0 +1,29 @@
+  <section class="close-band">
+    <div class="shell">
+      <span class="eyebrow">Start</span>
+      <h2>Thirty minutes. No deck, no pitch.</h2>
+      <p class="lede" style="margin-top:1.2rem;">Tell us about the business and we'll tell you, honestly, whether there's anything here worth paying us for.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:contact@ovdcapital.com">contact@ovdcapital.com</a>
+      </div>
+      <p class="close-meta">Chicago, Illinois · Replies within one business day</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="shell foot-in">
+    <span>OVD · Chicago</span>
+    <span>
+      <a href="__ROOT__assessment.html">Assessment</a> ·
+      <a href="__ROOT__work.html">Work</a> ·
+      <a href="__ROOT__notes.html">Notes</a> ·
+      <a href="__ROOT__who-we-are.html">Who We Are</a>
+    </span>
+    <span>© 2026 OVD Capital LLC</span>
+  </div>
+</footer>
+
+</body>
+</html>
