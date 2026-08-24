@@ -1,4 +1,4 @@
-# OVD — website
+# OVD Capital — website
 
 Static site. No framework, no build dependencies beyond Python 3.
 

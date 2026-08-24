@@ -10,7 +10,7 @@
 <link rel="icon" href="__ROOT__favicon.svg" type="image/svg+xml">
 
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="OVD">
+<meta property="og:site_name" content="OVD Capital">
 <meta property="og:title" content="__TITLE__">
 <meta property="og:description" content="__DESC__">
 <meta name="twitter:card" content="summary">
@@ -25,7 +25,7 @@
 
 <header class="topbar">
   <div class="shell topbar-in">
-    <a class="wordmark" href="__ROOT__">OVD<span>.</span></a>
+    <a class="wordmark" href="__ROOT__index.html">OVD<span>&#8202;Capital</span></a>
     <nav class="primary">
       <a __A_ASSESS__ href="__ROOT__assessment.html">Assessment</a>
       <a __A_PE__ href="__ROOT__private-equity.html">For Private Equity</a>

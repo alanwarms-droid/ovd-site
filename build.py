@@ -32,13 +32,13 @@ def build(src: pathlib.Path) -> str:
     root = "../" * depth or ""
 
     page = HEAD.replace("__TITLE__", meta["title"]).replace("__DESC__", meta["desc"])
-    page = page.replace("__CSS__", root).replace("__ROOT__", root or "/")
+    page = page.replace("__CSS__", root).replace("__ROOT__", root)
     page = page.replace("css/site.css\"", f"css/site.css?v={CSS_VER}\"")
     for key, token in NAV.items():
         page = page.replace(token, 'class="here"' if key == slug else "")
     page = re.sub(r"<a\s+href=", "<a href=", page)
 
-    out = page + body.rstrip() + "\n\n" + FOOT.replace("__ROOT__", root or "/")
+    out = page + body.rstrip() + "\n\n" + FOOT.replace("__ROOT__", root)
     return out
 
 def main():
