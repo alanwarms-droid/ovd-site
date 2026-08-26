@@ -34,6 +34,7 @@
       <a __A_NOTES__ href="__ROOT__notes.html">Notes</a>
       <a __A_WHO__ href="__ROOT__who-we-are.html">Who We Are</a>
       <a __A_CONTACT__ href="__ROOT__contact.html">Contact</a>
+      <a class="sister" href="https://ovdcapital.com">OVD Capital <span aria-hidden="true">&#8599;</span></a>
     </nav>
   </div>
 </header>
