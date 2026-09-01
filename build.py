@@ -14,8 +14,7 @@ HEAD = (ROOT / "_head.part").read_text()
 FOOT = (ROOT / "_foot.part").read_text()
 
 NAV = {
-    "assessment": "__A_ASSESS__", "private-equity": "__A_PE__",
-    "founders": "__A_FOUND__", "work": "__A_WORK__",
+    "assessment": "__A_ASSESS__", "how-we-work": "__A_HOW__", "work": "__A_WORK__",
     "notes": "__A_NOTES__", "who-we-are": "__A_WHO__",
     "contact": "__A_CONTACT__",
 }
