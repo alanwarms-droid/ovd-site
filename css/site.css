@@ -1080,3 +1080,48 @@ section { padding: clamp(2.8rem, 5.5vw, 4.5rem) 0; }
 }
 .ledger-col li:last-child { border-bottom: none; }
 .ledger-col li strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- the record: built and sold ---------- */
+
+.exits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--ink);
+  margin-top: 1.8rem;
+}
+
+.exits div {
+  padding: 1.1rem 1.6rem 1.1rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.exits .co {
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--ink);
+  display: block;
+  line-height: 1.25;
+}
+
+.exits .to {
+  font-family: var(--f-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  display: block;
+  margin-top: 0.3rem;
+}
+
+/* numbered service lines */
+
+.line-no {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.5rem;
+}
