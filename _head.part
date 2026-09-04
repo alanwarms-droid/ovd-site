@@ -27,7 +27,8 @@
   <div class="shell topbar-in">
     <a class="wordmark" href="__ROOT__index.html">OVD<span>&#8202;Advisory</span></a>
     <nav class="primary">
-      <a __A_ASSESS__ href="__ROOT__assessment.html">Assessment</a>
+      <a __A_SERVICES__ href="__ROOT__services.html">Services</a>
+      <a __A_INDUSTRIES__ href="__ROOT__industries.html">Industries</a>
       <a __A_HOW__ href="__ROOT__how-we-work.html">How We Work</a>
       <a __A_WORK__ href="__ROOT__work.html">Work</a>
       <a __A_NOTES__ href="__ROOT__notes.html">Notes</a>

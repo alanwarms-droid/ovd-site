@@ -14,9 +14,10 @@
 
 <footer class="site">
   <div class="shell foot-in">
-    <span>OVD Advisory · Chicago</span>
+    <span>OVD Advisory · AI advisory and implementation · Chicago</span>
     <span>
-      <a href="__ROOT__assessment.html">Assessment</a> ·
+      <a href="__ROOT__services.html">Services</a> ·
+      <a href="__ROOT__industries.html">Industries</a> ·
       <a href="__ROOT__work.html">Work</a> ·
       <a href="__ROOT__notes.html">Notes</a> ·
       <a href="__ROOT__who-we-are.html">Who We Are</a>
